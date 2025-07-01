@@ -15,6 +15,7 @@ function removeOverlay() {
         
 function playAudio() {
     var audio = new Audio('../media/audio.mp3');
+    audio.loop = true;
     audio.play();
 }
         
