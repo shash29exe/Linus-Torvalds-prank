@@ -1,8 +1,9 @@
 * {
-    
+   font-family: Arial, Helvetica, sans-serif; 
 }
 
 .cover {
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -14,5 +15,7 @@
 }
 
 .hide-button {
+    color: #FFFFFF;
+    font-size: 40px;
     padding-top: 100px;
 }
