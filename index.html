@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="cover">
-        <a><p class="hide-button">Tap on me</p></a>
+    <div class="overlay" id="overlay">
+        <div class="proceed-button" onclick="removeOverlay(); playMusic()">Click Me</div>
     </div>
+    <div class="container">
+        <div id="video-container">
+            <video id="fullscreen-video" autoplay repeat>
+                <source src="media/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <noscript>You must enable JavaScript to see this text.</noscript>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/anti-inspect-element.js"></script>
+    <script src="./js/title.js"></script>
 </body>
 </html>
