@@ -14,10 +14,6 @@ document.onkeydown = function (e) {
     if (event.keyCode == 123) {
         return false;
     }
-    // disable f11
-    if (event.keyCode == 122) {
-        return false;
-    }
     // disable ctrl+shift+I
     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
         return false;
@@ -34,7 +30,7 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
-    // disable ESC (keyCode 27)
+    // disable ESC
     if (e.keyCode == 27) {
         return false;
     }
